@@ -1,0 +1,111 @@
+/*
+<----------- Responsive Style ----------->
+*/
+@media (max-width: 1200px) {}
+
+@media (max-width: 991px) {
+
+	/* Hero Section */
+	.intro-text {text-align: center;}
+	.intro-text .m-t-100,
+	.intro-text .m-t-80 {margin-top: 0px;}
+
+	/* Content */
+	.left-content-img,
+	.left-content {margin-bottom: 30px;}
+
+	/* Features */
+	.f-icon {width: 100%; margin-bottom: 15px;}
+	.f-text {text-align: center; padding-left: 1px;}
+	.feature-container .p-t-80 {padding-top: 0;}
+	.feature-container .app-screen {margin-top: 40px; margin-bottom: 40px;}
+	.feature-container .app-screen img {width: 80%;}
+
+	/* Features */
+	.f-body-2 {margin-bottom: 20px;}
+	.f-body-2:last-child {margin-bottom: 0;}
+
+	/* Pricing Plan */
+	.plans {margin: 0 auto 30px; width: 60%;}
+	.plans:last-child {margin: 0 auto;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/* Navigation */
+	.nav > li > a {padding : 15px 10px;}
+
+	/* Hero Section */
+	#hero_10 .signup-form,
+	#hero_7 .signup-form { margin: 60px auto 0; width: 60%;}
+}
+
+@media(max-width:767px) {
+
+	/* Navigation */
+	.nav-base {padding: 8px 0;}
+	.nav-base.dark,
+	.nav-base.light {background: #fff;}
+	.nav-base.dark #navigation ul li a,
+	.nav-base.light #navigation ul li a {color: #474747;}
+	.nav-base.dark #navigation ul li a.btn,
+	.nav-base.light #navigation ul li a.btn {background: #23C6EC;color: #fff; border-color: #23C6EC;}
+	.nav-base.dark #navigation ul li a.btn:hover,
+	.nav-base.light #navigation ul li a.btn:hover {background: transparent;color: #23C6EC;border-color: #23C6EC;}
+	.nav-base.dark #navigation ul li a.btn-secondary,
+	.nav-base.light #navigation ul li a.btn-secondary {color: #23C6EC;border-color: #23C6EC;background: none;}
+	.nav-base.dark #navigation ul li a.btn-secondary:hover,
+	.nav-base.light #navigation ul li a.btn-secondary:hover {color: #fff;border-color: #23C6EC;background: #23C6EC;}
+
+	/* Hero Section */
+	#hero_10 .signup-form,
+	#hero_7 .signup-form { margin: 60px auto 0; width: 90%;}
+
+	/* Product Showcase */
+	.product {margin: 40px auto 0; width: 80%;}
+
+	/* Travel Package Box */
+	.img-box, .package {width: 80%; margin: 0 auto;}
+
+	/* Features */
+	.f-body {margin-bottom: 20px;}
+	.f-body:last-child {margin-bottom: 0;}
+
+	/* Statistic Counter */
+	#counter_1 .title {margin-bottom: 20px;}
+
+	/* Pricing Plan */
+	.plans {margin: 0 auto 30px; width: 80%;}
+	.plans:last-child {margin: 0 auto;}
+
+	/* Event Schedule */
+	.schedule-title li {width: 32.33%; display: inline-block;}
+}
+
+@media (max-width: 540px) {
+
+	/* Event Schedule */
+	.schedule-title {margin-bottom: 0;}
+	.schedule-title li {width: 32%; display: inline-block; margin-bottom: 15px;}
+	.schedule-title li a .h5 {font-size: 16px; font-weight: 900;}
+	.schedule-title li a .h4 {font-size: 20px; font-weight: 400;}
+
+	/* Product Showcase */
+	.product {margin: 40px auto 0; width: 100%;}
+
+	/* Travel Package Box */
+	.img-box, .package {width: 90%; margin: 0 auto;}
+}
+
+@media(max-width:480px) {
+
+	/* Pricing Plan */
+	.plans {margin: 0 auto 20px; width: 100%;}
+	.plans:last-child {margin: 0 auto;}
+
+	/* Travel Package Box */
+	.img-box, .package {width: 100%; margin: 0 auto;}
+
+	/* Event Schedule */
+	.schedule-title li {width: 99%; display: block; margin-bottom: 15px;}
+}

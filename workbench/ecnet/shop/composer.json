@@ -1,0 +1,31 @@
+{
+  "name": "ecnet/shop",
+  "description": "",
+  "authors": [
+    {
+      "name": "Dương Ngọc Anh",
+      "email": "simkbaio@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "4.2.*"
+  },
+  "require-dev": {
+    "way/generators": "~2.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/migrations",
+      "src/controllers",
+      "src/models"
+    ],
+    "psr-0": {
+      "Ecnet\\Shop\\": "src/"
+    },
+    "psr-4": {
+      "Acme\\": "src/Acme"
+    }
+  },
+  "minimum-stability": "stable"
+}

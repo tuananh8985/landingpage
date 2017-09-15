@@ -1,0 +1,19 @@
+@media (min-width: 992px) {
+.ves-megamenu .navbar-toggle{display: none!important;}
+}
+#ves-mainnav .dropdown-menu li{
+float: left;
+width: 100%;
+}
+#ves-mainnav .dropdown-menu li a{float:left;}
+#ves-mainnav .dropdown-menu li.parent .dropdown-menu{
+top: 10px;
+}
+#ves-mainnav .dropdown-menu li.parent .caret {
+    position: absolute;
+    right: -12px;
+    top: 45%;
+}
+#ves-mainnav .navbar-nav > li.dropdown > a > .caret{
+ top: 48%;
+}
